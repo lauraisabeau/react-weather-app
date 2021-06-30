@@ -1,4 +1,5 @@
 import axios from "axios";
+import WeatherInfo from "./WeatherInfo";
 import React, { useState } from "react";
 
 export default function SearchEngine(props) {
@@ -48,6 +49,7 @@ export default function SearchEngine(props) {
             className="btn btn-dark shadow-sm"
           />
         </form>
+        <WeatherInfo data={weatherData} />
       </div>
     );
   } else {

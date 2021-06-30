@@ -1,4 +1,3 @@
-import Temperature from "./Temperature";
 import "./App.css";
 import FormattedDate from "./FormattedDate";
 import SearchEngine from "./SearchEngine";
@@ -8,7 +7,6 @@ function App() {
     <div className="App">
       <FormattedDate />
       <SearchEngine defaultCity="Frankfurt am Main" />
-      <Temperature celsius="23" />
       <footer>
         coded by Laura Isabeau - open sourced on{" "}
         <a
