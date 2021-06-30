@@ -16,7 +16,7 @@ function App() {
           GitHub
         </a>{" "}
         and hosted on{" "}
-        <a href="..." target="blank">
+        <a href="https://thirsty-euler-5157db.netlify.app/" target="blank">
           Netlify
         </a>
       </footer>
