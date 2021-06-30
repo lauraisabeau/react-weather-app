@@ -1,3 +1,4 @@
+import "./SearchEngine.css";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
 import React, { useState } from "react";
@@ -14,6 +15,7 @@ export default function SearchEngine(props) {
       wind: response.data.wind.speed,
       city: response.data.name,
       description: response.data.weather[0].description,
+      icon: response.data.weather[0].icon,
     });
   }
 
@@ -46,7 +48,7 @@ export default function SearchEngine(props) {
             onChange={updateCity}
             type="button"
             value="Search"
-            className="btn btn-dark shadow-sm"
+            className="search-button"
           />
         </form>
         <WeatherInfo data={weatherData} />

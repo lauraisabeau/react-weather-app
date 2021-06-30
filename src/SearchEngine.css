@@ -1,0 +1,23 @@
+form {
+  text-align: center;
+}
+
+.search-button {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.search-form {
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  color: #495057;
+  font-size: 1rem;
+  font-weight: 310;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  padding: 0.375rem 0.75rem;
+  width: 60%;
+}

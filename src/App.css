@@ -1,9 +1,13 @@
 .App {
-  max-width: 600px;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  color: #757575;
+  font-family: "Nunito Sans", sans-serif;
+  height: 100%;
   margin: 30px auto;
+  max-width: 600px;
 }
 
 .App footer {
-  font-size: 11px;
-  margin: 10px 0;
+  font-size: 9px;
+  text-align: center;
 }
