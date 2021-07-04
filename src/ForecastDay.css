@@ -1,0 +1,12 @@
+.forecast {
+  margin-left: 76px;
+  margin-top: 45px;
+}
+
+.forecast-temp {
+  font-size: 13px;
+}
+
+.forecast-temp-max {
+  font-size: 15px;
+}

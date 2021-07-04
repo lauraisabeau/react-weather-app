@@ -18,13 +18,13 @@ export default function DailyForecast(props) {
 
   if (loaded) {
     return (
-      <div className="DailyForecast">
+      <div className="dailyForecast">
         <div className="row">
           {forecast.map(function (dailyForecast, index) {
-            if (index < 6) {
+            if (index < 5) {
               return (
                 <div className="col-2" key={index}>
-                  <ForecastDay data={DailyForecast} />
+                  <ForecastDay data={dailyForecast} />
                 </div>
               );
             } else {
